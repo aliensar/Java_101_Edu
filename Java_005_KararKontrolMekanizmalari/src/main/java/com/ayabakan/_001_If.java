@@ -5,12 +5,12 @@ public class _001_If {
         System.out.println("----------IF--------");
 
         if (1<51){
-            System.out.println("EVET");
+            System.out.println("EVET43");
         }
 
         int sayi = 11;
         if (1 < sayi){
-            System.out.println("EVET");
+            System.out.println("EVET23");
         }
 
         int a = 1, b = 2, c = 3;

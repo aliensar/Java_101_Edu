@@ -44,7 +44,7 @@ public class _002_If_Else {
         int adayKisiYasi = 25;
         boolean saglikDurumu = false;
 
-        if (saglikDurumu ==true) {
+        if (saglikDurumu2 ==true) {
                 if (adayKisiYasi == 16) {
                     System.out.println("Aday stajyer olabilir");
                 } else if (17 < adayKisiYasi) {

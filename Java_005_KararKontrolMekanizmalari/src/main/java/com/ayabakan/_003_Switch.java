@@ -36,7 +36,7 @@ public class _003_Switch {
                 System.out.println("cuma");
                 break;
             case 6:
-                System.out.println("cumartesi");
+                System.out.println("cumartesi2");
                 break;
             case 7:
                 System.out.println("Pazar");
