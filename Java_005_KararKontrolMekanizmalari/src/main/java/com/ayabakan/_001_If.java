@@ -4,11 +4,11 @@ public class _001_If {
     public static void main(String[] args) {
         System.out.println("----------IF--------");
 
-        if (1<50){
+        if (1<51){
             System.out.println("EVET");
         }
 
-        int sayi = 10;
+        int sayi = 11;
         if (1 < sayi){
             System.out.println("EVET");
         }
@@ -20,7 +20,7 @@ public class _001_If {
         z = 100;
 
         if ((x + y + z) > (a + b * c)){
-            System.out.println("Sağlandı");
+            System.out.println("Sağlandı..");
         }
 
     }
