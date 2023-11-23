@@ -15,8 +15,8 @@ public class _001_If {
 
         int a = 1, b = 2, c = 3;
         int x, y, z;
-        x = 90;
-        y = 50;
+        x = 901;
+        y = 506;
         z = 100;
 
         if ((x + y + z) > (a + b * c)){

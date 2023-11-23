@@ -33,7 +33,7 @@ public class _003_Switch {
                 System.out.println("persembe");
                 break;
             case 5:
-                System.out.println("cuma");
+                System.out.println("thanks god its friday");
                 break;
             case 6:
                 System.out.println("cumartesi2");
@@ -42,7 +42,7 @@ public class _003_Switch {
                 System.out.println("Pazar");
                 break;
             default:
-                System.out.println("bulunamadi");
+                System.out.println("bulunamadi...");
         }
 
         System.out.println("===========================");
