@@ -17,7 +17,6 @@ public class _003_Switch {
                 System.out.println("Girdigin sey bulunamadi " +harf);
                 break;
         }
-
         System.out.println("===========================");
         int gunSirasi = 5;
         switch (gunSirasi){
@@ -28,16 +27,16 @@ public class _003_Switch {
                 System.out.println("sali");
                 break;
             case 3:
-                System.out.println("cars");
+                System.out.println("carsamba");
                 break;
             case 4:
-                System.out.println("pers");
+                System.out.println("persembe");
                 break;
             case 5:
                 System.out.println("cuma");
                 break;
             case 6:
-                System.out.println("cts");
+                System.out.println("cumartesi");
                 break;
             case 7:
                 System.out.println("Pazar");
@@ -50,7 +49,7 @@ public class _003_Switch {
 
         for (int i = 0; i < 1000; i++) {
             if (i == 3) {
-                System.out.println("Bulundu : " + i);
+                System.out.println("Bulundu  : " + i);
                 //break;
                 continue;
             }
