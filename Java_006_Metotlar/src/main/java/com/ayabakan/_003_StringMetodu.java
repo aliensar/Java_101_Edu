@@ -4,7 +4,22 @@ public class _003_StringMetodu {
     private static void cizgiCek() {
         System.out.println("============================");
     }
+    private String hesabiKapat(int uyeNo, String adi, String soyadi, boolean uyeDurumu) {
+
+        if ( (uyeBul(uyeNo) == true ) && (uyeDurumu ==true) ){
+            return "Tamam hesap borcu " + adi + " " + soyadi + " için ödenmiştir";
+        }
+        return "OLMADI";
+    }
+    private static boolean uyeBul(int uyeNo) {
+        if(uyeNo>0){
+            return true;
+        }
+        return false;
+    }
     public static void main(String[] args) {
+
+        _003_StringMetodu obj = new _003_StringMetodu();
         String adi = "AliEnsar";
         System.out.println(adi.length());
 
@@ -39,17 +54,12 @@ public class _003_StringMetodu {
 
         cizgiCek();
 
-        hesabiKapat(1, "Ali Ensar", "Ayabakan", true);
-
-    }
-
-    private static void hesabiKapat(int uyeNo, String adi, String soyadi, boolean uyeDurumu) {
-
+        String sonuc = obj.hesabiKapat(1, "Ali Ensar", "Ayabakan", true);
+        System.out.println("Gelen Cevap: " +sonuc);
     }
 
     private static void selamVer(String isim) {
         System.out.println("SELAMLAR SAYIN " + isim + " HOŞGELDİNİZ.");
     }
-
 
 }
